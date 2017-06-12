@@ -1,0 +1,34 @@
+.header {
+  display:flex;
+  font-size: 14px;
+  font-family: Verdana;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 2px solid black;
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+.logo h3 {
+  color:mediumaquamarine;
+  margin-left: 20px;
+}
+
+.logo {
+  display:inline-flex;
+  justify-content: flex-start;
+}
+.nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav span {
+  justify-content: space-around;
+  margin:20px;
+}
+
+a {
+  color:black;
+}
